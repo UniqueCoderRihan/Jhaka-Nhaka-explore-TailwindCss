@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,32 +10,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                yellow: "#FECC02",
-                black: "#131313",
-                gray: "#4E4E4E",
-              },
-              fontFamily : {
-                bebas : ["Bebas Neue", "cursive"],
-                montserrat : ["Montserrat" , "sans-serif"]
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: "#FECC02",
+                        black: "#131313",
+                        gray: "#4E4E4E",
+                    },
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "cursive"],
+                        montserrat: ["Montserrat", "sans-serif"]
+                    }
+                }
             }
-          }
         }
-      </script>
-    
+    </script>
+
 
 </head>
+
 <body>
     <!-- navar start -->
     <nav class="bg-white h-20 fixed top-0 right-0 left-0">
         <div class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto font-bebas px-5">
-            
+
             <h1 class=" text-2xl">Jhaka Nhaka Production</h1>
             <ul class="flex text-lg gap-8">
                 <li>About us</li>
@@ -46,16 +48,38 @@
     <!-- navbar end----- -->
     <section class="bg-red-500 h-screen pt-20 bg-[url('./images/banner.jpg')] bg-cover">
         <div class="h-full w-full max-w-7xl mx-auto px-5 flex items-center">
-          <div>
-            <h2 class="font-bebas text-[19px] text-white">Movie production studio</h2>
-            <h1 class="font-bebas text-7xl text-white">Films MAde to</h1>
-            <h2 class="font-bebas text-yellow text-7xl">Perfection</h2>
-            <p class="font-montserrat text-white text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut  elit tellus,<br> 
-                luctus nec ullamcorper mattis, pulvinar dapibus leo..</p>
-            <button class="text-white font-bebas border-2 border-white py-2 px-3 mt-5 hover:bg-yellow hover:border-yellow hover:text-black hover:transition-all">DISCOVER MORE</button>
-          </div>
+            <div>
+                <h2 class="font-bebas text-[19px] text-white">Movie production studio</h2>
+                <h1 class="font-bebas text-7xl text-white">Films MAde to</h1>
+                <h2 class="font-bebas text-yellow text-7xl">Perfection</h2>
+                <p class="font-montserrat text-white text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ut elit tellus,<br>
+                    luctus nec ullamcorper mattis, pulvinar dapibus leo..</p>
+                <button
+                    class="text-white font-bebas border-2 border-white py-2 px-3 mt-5 hover:bg-yellow hover:border-yellow hover:text-black hover:transition-all">DISCOVER
+                    MORE</button>
+            </div>
         </div>
-        
+
     </section>
+    <!-- about us -->
+    <section class="py-40">
+        <div class="border-2 border-r-black w-full max-w-7xl mx-auto">
+            <div class="lg:flex p-5">
+                <div class="w-full lg:w-1/2 bg-red-500 h-[500px] bg-[url('images/camera-man.jpg')] bg-cover bg-center"></div>
+                <div class="w-full lg:w-1/2 pl-3 py-5 font-bebas">
+                    <h2 class="text-lg">About us</h2>
+                    <h1 class="text-7xl">FIlming Experience</h1>
+                    <h1 class="text-7xl">Just Got better</h1>
+                    <p class="font-montserrat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam enim quasi molestias commodi? Perspiciatis, minima.</p>
+                    <button
+                    class="text-black font-bebas border-2 border-black py-2 px-3 mt-5 hover:bg-yellow hover:border-yellow hover:text-black hover:transition-all">DISCOVER
+                    MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
